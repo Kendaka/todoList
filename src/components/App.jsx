@@ -24,7 +24,7 @@ function App() {
       <div className="form">
         <input onChange={handleChange} type="text" value={inputText} />
         <button onClick={addItem}>
-          <span> Add a todo list</span>
+          <span> Add</span>
         </button>
       </div>
       <div>
