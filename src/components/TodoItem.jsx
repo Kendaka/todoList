@@ -3,7 +3,7 @@ import React, { useState } from "react";
 const todoItems = (props) => {
     return (
         <div>
-            <li>{props.todoItem}</li>
+            <li>{props.text}</li>
         </div>
     )
 }
