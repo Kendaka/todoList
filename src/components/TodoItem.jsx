@@ -1,13 +1,9 @@
 import React, { useState } from "react";
 
-const todoItems = () => {
+const todoItems = (props) => {
     return (
         <div>
-            <ul>
-                {items.map(todoItem => (
-                    <li>{todoItem}</li>
-                ))}
-            </ul>
+            <li>{props.todoItem}</li>
         </div>
     )
 }
