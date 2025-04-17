@@ -17,10 +17,10 @@ function App() {
     setInputText("");
   }
 
-  function deleteItem(i) { 
+  function deleteItem(id) { 
     setItems(prevItems => {
       return prevItems.filter((item, index) => {
-        return index !== i
+        return index !== id
       })
     })
   }
