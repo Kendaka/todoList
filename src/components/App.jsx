@@ -22,7 +22,7 @@ function App() {
       return prevItems.filter((item, index) => {
         return index !== id
       })
-    })
+    });
   }
 
   return (
